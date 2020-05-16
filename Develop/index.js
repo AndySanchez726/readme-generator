@@ -21,7 +21,30 @@ const questions = [
         message: 'What are the usage instructions?'
     },
     {
-        
+        type: 'input',
+        name: 'credits',
+        message: 'List the credits used for the project.'
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'What are the instructions to test the project?'
+    },
+    {
+        type: 'checkbox',
+        name: 'license',
+        message: 'What is the license for this project?',
+        choices: ['MIT', 'GNU', 'Existing Project']
+    },
+    {
+        type: 'input',
+        name: 'username',
+        message: 'What is your Github username?'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?'
     }
 ];
 
