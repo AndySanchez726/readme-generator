@@ -27,11 +27,17 @@ ${generateBadge(data.license)}
 ${data.description}
 ## Table of Contents
 [Installation](#installation)
+
 [Usage](#usage)
+
 [Credits](#credits)
-[License(#license)
+
+[License](#license)
+
 [Tests](#tests)
+
 [Questions](#questions)
+
 ## Installation
 ${data.installation}
 ## Usage
@@ -39,9 +45,7 @@ ${data.useage}
 ## Credits
 ${data.credits}
 ## License
-${data.license}
-## Badges
-
+Licensed under ${data.license}.
 ## Tests
 ${data.test}
 ## Questions
