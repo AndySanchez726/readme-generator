@@ -21,7 +21,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'usage',
+        name: 'useage',
         message: 'What are the usage instructions?'
     },
     {
@@ -35,10 +35,10 @@ const questions = [
         message: 'What are the instructions to test the project?'
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'What is the license for this project?',
-        choices: ['MIT', 'GNU', 'Existing Project']
+        choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public 2.0', 'Apache 2.0', 'MIT', 'Unlicense']
     },
     {
         type: 'input',
@@ -53,7 +53,6 @@ const questions = [
 ];
 
 // function to write README file
-// function writeToFile(fileName, data) {
 function writeToFile(data) {
     return new Promise ((resolve, reject) => {
         fs.writeFile('./dist/README.md', data, err => {
@@ -77,6 +76,7 @@ function init() {
 
 // function call to initialize program
 init()
+    // .then(answers => console.log(answers))
     .then(initData => {
         return generatePage(initData);
     })
