@@ -18,7 +18,7 @@ This is a quick and easy generator to create a professional README.md file for y
 ## Installation
 To install, download the repo and run 'index.js' in the command line as a Node application.
 ## Usage
-Once you run 'node index.js' in the command line, you will be asked a series of questions to answer about your project. After answers the questions a README.md file will be created with your responses.
+Once you run 'node index.js' in the command line, you will be asked a series of questions to answer about your project. After answers the questions a README.md file will be created with your responses. Here is a video demonstrating how it works! [Demo](https://youtu.be/iu4Gs38A2oc)
 ## Credits
 The license badges were created by this Github project. [Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
 ## License

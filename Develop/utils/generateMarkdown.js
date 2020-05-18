@@ -51,7 +51,7 @@ ${data.test}
 ## Questions
 If you have any questions, here is a link to my github as well as my email address. Feel free to contanct me!
 
-[Github](github.com/${data.github} "My Github")
+[Github](github.com/${data.username} "My Github")
 
 [Email](${data.email} "My Email")
   `;
